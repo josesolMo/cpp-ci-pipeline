@@ -1,8 +1,29 @@
-dist: trusty
+#dist: trusty
+#sudo: false
+#language: cpp
+
+#script:
+
+#  -cmake .
+#  -cmake --build . -- -j2
+
+
 sudo: false
 language: cpp
-
+compiler:
+  - gcc
+  - clang
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+      - llvm-toolchain-precise-3.8
+    packages:
+      - g++-6
+      - clang-3.8
+install:
+  - "[ $CXX = g++ ] && export CXX=g++-6 || true"
+  - "[ $CXX = clang++ ] && export CXX=clang++-3.8 || true"
 script:
-
-  -cmake .
-  -cmake --build . -- -j2
+  - make
+  - make test
