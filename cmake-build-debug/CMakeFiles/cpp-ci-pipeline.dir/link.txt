@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cpp-ci-pipeline.dir/main.cpp.o  -o cpp-ci-pipeline 

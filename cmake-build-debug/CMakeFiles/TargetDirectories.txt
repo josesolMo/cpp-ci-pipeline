@@ -1,0 +1,3 @@
+/home/jose/ProyectosGit/datos2_2020/cpp-ci-pipeline/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jose/ProyectosGit/datos2_2020/cpp-ci-pipeline/cmake-build-debug/CMakeFiles/cpp-ci-pipeline.dir
+/home/jose/ProyectosGit/datos2_2020/cpp-ci-pipeline/cmake-build-debug/CMakeFiles/edit_cache.dir
