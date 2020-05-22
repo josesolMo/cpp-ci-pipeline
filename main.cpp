@@ -37,4 +37,6 @@ int main() {
     calculator->restar(6,4);
     calculator->multiplicar(2,4);
     calculator->dividir(16,4);
+
+    calculator->sumar(2,7);
 }
